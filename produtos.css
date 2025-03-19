@@ -30,7 +30,7 @@ nav a {
 
  nav a: hover {
  color: #000000
-   text decoration
+   text decoration:underline;
  }
 
  .produtos{
@@ -50,6 +50,18 @@ nav a {
      border-radius: 10px;
  }
 
+.produtos li:hover{
+  border-color: red; #8cb5e5
+}
+
+.produtos li: active{
+  border-color: red;
+}
+
+.produtos li: hover h2{
+  font-size: 34px;
+}
+
  .produtos h2{
    font-size: 30px;
    font-wight: bold;
@@ -63,3 +75,16 @@ font-size: 10px;
 font-size: 22px
   font-wweight: bold;
   margin-top: 10px;
+}
+
+footer{
+  text-align: center;
+   background: ur1("bg.jpg");
+   padding:40px 0:
+}
+
+.copyright{
+  color: white;
+   font-size: 22px;
+   margin: 20px auto;
+}
