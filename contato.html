@@ -24,35 +24,35 @@
 <main>
   <form>
     <label form="nomesobrenome"> nome e sobrenome</label>
-    <Imput type="text" id="nomesobrenome" class=">
+    <Imput type="text" id="nomesobrenome" class="input-padrao" required>
 
     <label form="email"> email</label>
-    <Imput type="text" id="email"class=">    
+    <Imput type="email" id="email"class="input-padrao" required placeholder="seuemail@dominio.com">   
 
   <label form="telefone"> telefone</label> 
-  <Imput type="text" id="telefone" class="input-padrao">
+  <Imput type="tel" id="telefone" class="input-padrao"input-padrao" required placeholder="(xx) xxxxx-xxxx">
 
     <label form="telefone"> mensagem</label> 
     <textarea cols="70" rows="10" id="mensagem" class="input-padrao">
+      </texterea>
       
-      
-  <div>
+  <fieldset>
       <p>como prefere nosso contato?</p>
       <label for="radio-email"><input type="radio" name="contato" value="email" id="radio-email">Email</label>
 
       <label for="radio-telefone"><input type="radio" name="contato" value="telefone" id="radio-telefone">telefone</label>
 
       <label for="radio-whatsapp"><input type="radio" name="contato" value="whatsapp" id="radio-whatsapp">whatsapp</label>
- </div>
+ </fieldset>
       
-      <div>
+      <fieldset>
       <p>Qual horario prefere ser atendido?</p>
       <select>
       <option>manhã</option>
       <option>tarde</option>
       <option>noite</option>
     </select>
-    </div>
+    </fieldset>
 
       <label class="checkbox"><input type="checkbox">checkbox">gostaria de receber nossas novidades por email?</label>
       
