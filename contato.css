@@ -49,4 +49,12 @@ table {
 }
 
 thead{
-  backgroud:
+  background: white;
+  color: blueviolet;
+  font-weight: bold;
+}
+
+td, th{
+  border: 1px solid
+
+}
