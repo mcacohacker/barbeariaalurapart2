@@ -3,6 +3,7 @@
 body{
 	font-family: 'Roboto', sans-serif;
 }
+
 .banner {
 	width:100%;
 }
@@ -14,10 +15,14 @@ body{
 	clear: left;
 }
 
-.principal p{
+.principal {
 margin: 0 0 1em;
+	background: #ffffff;
+	width: 940px;
+	margin: 0 auto;
 }
 
+.principal p{
 .principal strong{
 	font-weight: bold;
 }
