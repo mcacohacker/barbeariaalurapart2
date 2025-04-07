@@ -62,6 +62,13 @@ width: 40%;
 
 .imagem-beneficios {
 	width: 60%;
+	opacity: 1;
+	transiton: 400ms;
+	box-shadow: 10px 10px 10px 0 #000000
+}
+
+.imagens-beneficios: hover{
+	opacity: 0.3;
 }
 
 .itens {
@@ -70,6 +77,10 @@ width: 40%;
 
 .itens:first-child {
 	font-weight: bold;
+}
+
+.itens:before {
+content: "🙈";
 }
 
 .mapa{
