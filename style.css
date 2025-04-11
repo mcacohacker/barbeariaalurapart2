@@ -16,7 +16,7 @@ body{
 }
 
 .principal {
-padding: 3em 0;
+        padding: 3em 0;
 	background: #ffffff;
 	width: 940px;
 	margin: 0 auto;
@@ -97,4 +97,3 @@ content: "🙈";
 	width: 500px;
 	margin: 1em auto;
 }
-
