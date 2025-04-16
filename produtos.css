@@ -1,6 +1,10 @@
+body {
+  font-family: 'Roboto', sans-serif;
+}
+
 header {
-  background: #bbbbbb
-  padding: 20px
+  background: #bbbbbb;
+  padding: 20px;
 }
 
 .caixa{
@@ -23,18 +27,18 @@ nav li {
 nav a {
   text-transform: uppercase;
   color: #000000;
-  font-weigth: bold;
-  font-size: 22px
-  text-decoration: none:
+  font-weight: bold;
+  font-size: 22px;
+  text-decoration: none;
 }
 
- nav a: hover {
- color: #000000
-   text decoration:underline;
+ nav a:hover {
+ color: #000000;
+   text-decoration:underline;
  }
 
  .produtos{
-   width: 940px
+   width: 940px;
     margin: 0 auto;
      padding: 50px 0;
  }
@@ -51,38 +55,38 @@ nav a {
  }
 
 .produtos li:hover{
-  border-color: red; #8cb5e5
+  border-color: #8cb5e5;
 }
 
-.produtos li: active{
+.produtos li:active{
   border-color: red;
 }
 
-.produtos li: hover h2{
+.produtos li:hover h2{
   font-size: 34px;
 }
 
  .produtos h2{
    font-size: 30px;
-   font-wight: bold;
+   font-weight: bold;
  }
 
-.produtos descricao
+.produtos descricao{
 font-size: 10px;
 }
 
 .produtos preco{
-font-size: 22px
-  font-wweight: bold;
+font-size: 22px;
+  font-weight: bold;
   margin-top: 10px;
 }
 
 footer{
   text-align: center;
    background: ur1("bg.jpg");
-   padding:40px 0:
+   padding:40px 0;
 }
-
+/*add 18/03*/
 .copyright{
   color: white;
    font-size: 22px;

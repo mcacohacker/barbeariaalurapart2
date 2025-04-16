@@ -63,16 +63,16 @@ width: 40%;
 .imagem-beneficios {
 	width: 60%;
 	opacity: 1;
-	transiton: 400ms;
+	transition: 400ms;
 	box-shadow: 10px 10px 10px 0 #000000
 }
 
-.imagens-beneficios: hover{
+.imagens-beneficios:hover{
 	opacity: 0.3;
 }
 
 .itens {
-	line-weight: 1.5;
+	line-height: 1.5;
 }
 
 .itens:first-child {
@@ -96,4 +96,22 @@ content: "🙈";
 .video{
 	width: 500px;
 	margin: 1em auto;
+}
+
+@media screen and(max-width: 480px){
+	.caixa, .principal, .conteudo-beneficios, .mapa-conteudo, .video{
+		width: auto;
+	}
+
+	h1{
+		text-align: center;
+	}
+
+	nav{
+		position: static;
+	}
+
+	.lista-beneficios, .imagem-beneficios{
+		width: 100%;
+	}
 }
